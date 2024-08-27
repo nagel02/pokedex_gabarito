@@ -1,0 +1,48 @@
+.lista-pokemon{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem; 
+}
+
+.pokemon{
+    background-color: rgb(9, 221, 157);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: aliceblue;
+}
+.pokemon .number{
+    text-align: end;
+    color: black;
+    opacity: 40%;
+    font-size: 15px;
+}
+.pokemon .name{
+    font-size: 23px;
+    font-weight: 700;
+    
+}
+.pokemon img{
+    height: 80px;
+}
+.pokemon .detail{
+    display: flex;
+    justify-content: space-between;
+}
+.pokemon .type1{
+    background-color: rgb(10, 151, 17);
+    border-radius: 8.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.pokemon .type2{
+    background-color: rgb(103, 6, 141);
+    border-radius: 8.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    margin-top: 5px;
+}
